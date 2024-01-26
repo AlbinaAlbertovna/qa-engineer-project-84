@@ -89,3 +89,31 @@
     Появляется всплывающее окно с надписью "Заказ успешно оформлен"
   actual-result: |
     Появляется всплывающее окно с надписью "Заказ успешно формлен"
+
+    ---
+- summary: |
+    При нажатии на кнопку "Hexlet Store" в хедере ничего не происходит
+  environment: |
+    Opera One версия: 106.0.4998.28
+    ОС Windows 10 64-bit
+  steps-to-reproduce: |
+    1. Зайти на сайт
+    2. Перейти в корзину
+    3. Нажать на кнопку "Hexlet Store"
+  expected-result: |
+    Выполняется переход на главную страницу сайта
+  actual-result: |
+    Кнопка "Hexlet Store" не кликабельна, на странице ничего не происходит
+
+        ---
+- summary: |
+    
+  environment: |
+    Opera One версия: 106.0.4998.28
+    ОС Windows 10 64-bit
+  steps-to-reproduce: |
+    
+  expected-result: |
+    
+  actual-result: |
+
