@@ -169,8 +169,8 @@
   actual-result: |
     В результатах поиска отображается только товар стоимостью 35
     Скриншот https://github.com/AlbinaAlbertovna/qa-engineer-project-84/blob/main/граничные%20значения.png
-
-    - summary: |
+           ---
+- summary: |
       В поля "От" и "До" фильтра поиска по цене присутствует возможность ввода отрицательных чисел
     environment: |
       Opera One версия: 106.0.4998.28
